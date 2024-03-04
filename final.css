@@ -1,0 +1,85 @@
+*{padding:0;margin: 0;}
+ul,li{list-style: none;}
+.container{width: 100%;}
+.contents{width:1280px;margin: auto;}
+.header{padding: 20px 30px; position: sticky; top:0; background-color: #336AE6; width: 100%;}
+.header .contents{display: flex; align-items: center; justify-content: space-between;}
+.header .contents .left{flex: 2;display: flex;}
+.header .contents .right{flex: 4;margin-left: 200px;}
+.header .menu{display: flex;
+    justify-content: space-around;
+font-size: 20px; font-weight: bold; color: white;}
+.work{ display: flex; justify-content: center;}
+.work .workspaceleft{border-radius: 20px; margin: 40px; width: 600px; height: 356px; background-color: #336AE6;}
+.work .workspaceright{border-radius: 20px;margin: 40px; width: 600px; height: 356px;background-color: #E47557;}
+.work .title{display: flex;}
+.work .title h2{font-size: 30px;}
+.work .title p{font-size: 20px;}
+.work .titlename{flex: 9; margin-left: 40px;margin-top: 25px; color: white;}
+.work .dot{flex: 2; text-align: right; margin-top: 42px; margin-right: 40px; }
+.work .money{font-size: 40px; color: white; text-align: center; margin-top: 70px;}
+.work .input{display: flex; justify-items: center; margin-top: 80px;}
+.work .input p{color: white; font-size: 30px;}
+.work .input h5{flex: 1; color: white; font-size: 25px; text-align: center;}
+.x{display: flex; justify-content: center;}
+.today{height: 287px; width: 1280px; margin-left: 40px; margin-right: 40px; background-color: #FFFFEF; border: 1px solid #888888; border-radius: 20px;}
+.today .title{font-size: 20px; display: flex; align-items: center;margin-top: 23px; margin-bottom: 23px;}
+.today img{ height: 15px; }
+.today .p{flex: 1;}
+.today h5{margin-left: 10px; margin-right: 10px;}
+.today .date{flex: 15; display: flex; margin-left: 33px; align-items: center;}
+.today .line{margin-left: 30px; margin-right: 30px;}
+.today .towork{display: flex; align-items: baseline; margin-left: 30px; margin-top: 15px;}
+.towork h2{color: #336AE6;}
+.towork p{margin-left: 10px;}
+
+.plus{ display: flex; justify-content: center;}
+.plus .plusleft{display: flex; justify-content: center; align-items: center; border-radius: 20px; margin: 40px; width: 600px; height: 92px; border: 1px solid #888888;}
+.plus .plusright{display: flex; justify-content: center; align-items: center;border-radius: 20px;margin: 40px; width: 600px; height: 92px; border: 1px solid #888888;}
+.plus h5{font-size: 20px;}
+
+.y{display: flex; justify-content: center;}
+.n{width: 1280px; margin-left: 40px; margin-right: 40px; margin-top: 30px; margin-bottom: 20px;}
+.graph{display: flex;  justify-content: space-evenly; align-items: flex-end; height: 400px; width: 1280px; margin-left: 40px; margin-right: 40px; background-color: #FFFFEF; border: 1px solid #888888; border-radius: 20px;}
+.graph .h{border-radius: 10px; text-align: center; width: 50px; height: 40px; background-color: #E47557;}
+.graph .l{margin-top: -15px; border-radius: 10px; text-align: center; width: 50px; height: 100px; background-color: #336AE6;}
+.graph .l1{margin-top: -15px; border-radius: 10px; text-align: center; width: 50px; height: 150px; background-color: #336AE6;}
+.graph .l2{margin-top: -15px; border-radius: 10px; text-align: center; width: 50px; height: 180px; background-color: #336AE6;}
+.graph .l3{margin-top: -15px; border-radius: 10px; text-align: center; width: 50px; height: 125px; background-color: #336AE6;}
+.graph .l4{margin-top: -15px; border-radius: 10px; text-align: center; width: 50px; height: 139px; background-color: #336AE6;}
+.graph_list{display:grid; margin-bottom: 15px; justify-items: center;}
+
+.graph1{display: grid; justify-items: center; align-items: center; text-align: center; height: 200px; width: 1280px; margin-left: 40px; margin-right: 40px; margin-top: 20px; background-color: #FFFFEF; border: 1px solid #888888; border-radius: 20px;}
+a{text-decoration: none;
+    color: inherit;}
+footer{background-color: black;}
+.g{height: 15px; color: white;}
+.end{background-color: rgb(43, 46, 54); margin-top: 20px;}
+.end .txt{color: white;margin-left: 20px; margin-top: 30px; margin-bottom: 20px;}
+
+.xi-bars {display: none;}
+@media (max-width: 1210px){
+    .top-header{display: none;}
+    .header .contents{height:40px}
+    .xi-bars {display:contents;
+        position: fixed;
+        right:0;
+        color: white;
+        
+    }
+    .contents .menu {display: none;}
+    .header .contents .left{flex:2}
+
+    .contents .menu .active{
+        display: flex;
+        flex-direction: column;
+        height:400px;
+        background-color: white; 
+    } 
+}
+@media (max-width: 820px) {
+    .work{display: grid;}
+}
+@media (max-width: 640px) {
+    
+}
